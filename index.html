@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>ASF BIOSEC-LEVEL SYSTEM
+        </title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  <script
+src="http://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" ></script>
+
+
+  
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+            <div class="container px-5">
+                <a class="navbar-brand fw-bold" href="#page-top">ASF BIOSEC-LEVEL SYSTEM</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul id="menu1" class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Download</a></li>
+                    </ul>
+                    <!-- 
+                    <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                        <span class="d-flex align-items-center">
+                            <i class="bi-chat-text-fill me-2"></i>
+                            <span class="small">Send Feedback</span>
+                        </span>
+                    </button>
+
+                    -->
+                            <ul id="nav-mobile" class="navbar-nav ml-auto topnav">
+                              <li class="nav-item" id="logged-in" style="display: none;">
+                                <a href="#" class="nav-link modal-trigger" data-target="modal-account">Account</a>
+                              </li>
+                              <li class="nav-item" id="logged-in" style="display: none;">
+                                <a href="#" class="nav-link" id="logout">Logout</a>
+                              </li>
+                              <li class="nav-item" id="admin" style="display: none;">
+                                <a href="#" class="nav-link modal-trigger" data-target="modal-create">Create Guide</a>
+                              </li>
+                              <li class="nav-item" id="logged-out" style="display: none;">
+                                <a href="#" class="nav-link modal-trigger" data-target="modal-login2">Login</a>
+                              </li>
+                              <li class="nav-item" id="logged-out" style="display: none;">
+                                <a href="#" class="nav-link modal-trigger" data-target="modal-signup">Sign up</a>
+                              </li>
+                            </span>
+                          </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Mashead header-->
+        <header id="p1" class="masthead">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <!-- Mashead text and app badges-->
+                        <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                            <h1 class="display-1 lh-1 mb-3">ASF Biosec Level App.</h1>
+                            <p class="lead fw-normal text-muted mb-5">To help our farmers self-assess the present level of biosecurity in their respective farms, the android application was developed. </p>
+                            <div class="d-flex flex-column flex-lg-row align-items-center">
+                                <a class="me-lg-3 mb-4 mb-lg-0" href="https://play.google.com/store/apps/details?id=tech.thecricuit.swinefarm.biosecurity"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a>
+                                <a href="https://play.google.com/store/apps/details?id=tech.thecricuit.swinefarm.biosecurity"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- Masthead device mockup feature-->
+                        <div class="masthead-device-mockup">
+                            <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="circleGradient" gradientTransform="rotate(45)">
+                                        <stop class="gradient-start-color" offset="0%"></stop>
+                                        <stop class="gradient-end-color" offset="100%"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="50" cy="50" r="50"></circle></svg
+                            ><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
+                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg
+                            ><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg>
+                            <div class="device-wrapper">
+                                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                                    <div class="screen bg-black">
+                                        <!-- PUT CONTENTS HERE:-->
+                                        <!-- * * This can be a video, image, or just about anything else.-->
+                                        <!-- * * Set the max width of your media to 100% and the height to-->
+                                        <!-- * * 100% like the demo example below.-->
+                                        <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="assets/img/demo-screen.mp4" type="video/mp4" /></video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Quote/testimonial aside-->
+        <aside id="p2" class="text-center bg-gradient-primary-to-secondary">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-xl-8">
+                        <div class="h2 fs-1 text-white mb-4">"African Swine Fever (ASF) is a highly contagious and deadly swine disease that can affect both farm-raised and feral (wild) pigs. "</div>
+                        <img src="assets/img/FDA.jpg" alt="..." style="height: 8rem" />
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- App features section-->
+        <section id="features">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
+                        <div class="container-fluid px-5">
+                            <div class="row gx-5">
+                                <div class="col-md-6 mb-5">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <i class="bi bi-phone icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Packed with Features</h3>
+                                        <p class="text-muted mb-0">It will be very useful for farm owners, managers, veterinarians, consultants and other agencies for the efficient monitoring of biosecurity compliance of swine farms.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <i class="bi bi-card-checklist icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Quick and Detailed Assessment</h3>
+                                        <p class="text-muted mb-0">It will help farmers improve their compliance that will keep their farms from diseases.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-5 mb-md-0">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <i class="bi-gift icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Free to Use</h3>
+                                        <p class="text-muted mb-0">You can download the mobile application for free on Google Play!</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <!-- Feature item-->
+                                    <div class="text-center">
+                                        <i class="bi bi-person-badge icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Create Account</h3>
+                                        <p class="text-muted mb-0">Try this application to know the level of biosecurity in you farm.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 order-lg-0">
+                        <!-- Features section device mockup-->
+                        <div class="features-device-mockup">
+                            <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="circleGradient" gradientTransform="rotate(45)">
+                                        <stop class="gradient-start-color" offset="0%"></stop>
+                                        <stop class="gradient-end-color" offset="100%"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="50" cy="50" r="50"></circle></svg
+                            ><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
+                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg
+                            ><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg>
+                            <div class="device-wrapper">
+                                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                                    <div class="screen bg-black">
+                                        <!-- PUT CONTENTS HERE:-->
+                                        <!-- * * This can be a video, image, or just about anything else.-->
+                                        <!-- * * Set the max width of your media to 100% and the height to-->
+                                        <!-- * * 100% like the demo example below.-->
+                                        <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="assets/img/demo-screen.mp4" type="video/mp4" /></video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Call to action section-->
+        <section id="p5" class="cta">
+            <div class="cta-content">
+                <div class="container px-5">
+                    <h2 class="text-white display-1 lh-1 mb-4">
+                      ASF Kills Pigs.
+                        <br />
+                        Start using the app now.
+                    </h2>
+                    <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://play.google.com/store/apps/details?id=tech.thecricuit.swinefarm.biosecurity" target="_blank">Download for free</a>
+                </div>
+            </div>
+        </section>
+        <!-- App badge section-->
+        <section  class="bg-gradient-primary-to-secondary" id="download">
+            <div class="container px-5">
+                <h2 class="text-center text-white font-alt mb-4">Get the app now!</h2>
+                <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+                    <a class="me-lg-3 mb-4 mb-lg-0" href="https://play.google.com/store/apps/details?id=tech.thecricuit.swinefarm.biosecurity"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a>
+                    <a href="https://play.google.com/store/apps/details?id=tech.thecricuit.swinefarm.biosecurity"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer id="p7" class="bg-black text-center py-5">
+            <div class="container px-5">
+                <div class="text-white-50 small">
+                    <div class="mb-2">&copy; ASF Biosec Level App 2021. All Rights Reserved.</div>
+                    <a href="#!">Privacy</a>
+                    <span class="mx-1">&middot;</span>
+                    <a href="#!">Terms</a>
+                    <span class="mx-1">&middot;</span>
+                    <a href="#!">FAQ</a>
+                </div>
+            </div>
+        </footer>
+        <!-- Feedback Modal-->
+        <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-gradient-primary-to-secondary p-4">
+                        <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">Send feedback</h5>
+                        <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body border-0 p-4">
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- * * SB Forms Contact Form * *-->
+                        <!-- * * * * * * * * * * * * * * *-->
+                        <!-- This form is pre-integrated with SB Forms.-->
+                        <!-- To make this form functional, sign up at-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
+                        <!-- to get an API token!-->
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Full name</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Email address</label>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <label for="phone">Phone number</label>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                            <!-- Submit success message-->
+                            <!---->
+                            <!-- This is what your users will see when the form-->
+                            <!-- has successfully submitted-->
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Form submission successful!</div>
+                                    To activate this form, sign up at
+                                    <br />
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                </div>
+                            </div>
+                            <!-- Submit error message-->
+                            <!---->
+                            <!-- This is what your users will see when there is-->
+                            <!-- an error submitting the form-->
+                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <!-- Submit Button-->
+                            <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+ <!-- ADMIN ACTIONS -->
+  <form class="center-align admin-actions admin" style="margin: 40px auto; max-width: 300px; display: none;">
+    <input type="email" placeholder="User email" id="admin-email" required />
+    <button class="btn-small yellow darken-2 z-depth-0">Make admin</button>
+  </form>
+
+  <!-- SIGN UP MODAL -->
+  <div id="modal-signup" class="modal">
+    <div class="modal-content">
+      <h4>Sign up</h4><br />
+      <form id="signup-form">
+        <div class="input-field">
+          <input type="email" id="signup-email" required />
+          <label for="signup-email">Email address</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="signup-password" required />
+          <label for="signup-password">Choose password</label>
+        </div>
+        <div class="input-field">
+          <input type="text" id="signup-bio" required />
+          <label for="signup-bio">One Line Bio</label>
+        </div>
+        <button class="btn yellow darken-2 z-depth-0">Sign up</button>
+        <p class="error pink-text center-align"></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- LOGIN MODAL -->
+  <div id="modal-login" class="modal">
+    <div class="modal-content">
+      <h4>Login</h4><br />
+      <form id="login-form">
+        <div class="input-field">
+          <input type="email" id="login-email" required />
+          <label for="login-email">Email address</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="login-password" required />
+          <label for="login-password">Your password</label>
+        </div>
+        <button class="btn yellow darken-2 z-depth-0">Login</button>
+        <p class="error pink-text center-align"></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- ACCOUNT MODAL -->
+  <div id="modal-account" class="modal">
+    <div class="modal-content center-align">
+      <h4>Account details</h4><br />
+      <div class="account-details"></div>
+    </div>
+  </div>
+
+
+
+
+  
+  <!-- Modal Edit -->
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Update Information</h5>
+          <button type="button" id="btn-close1" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="formedit" autocomplete="off">
+        <div class="form-group">
+          <label for="formGroupExampleInput">Full Name</label>
+          <input type="text" class="form-control" id="fName"  name="fName" placeholder="Full Name">
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">E-mail</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
+        </div>
+  
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Farm Name</label>
+          <input type="text" class="form-control" id="farmName" name="farmName" placeholder="Farm Name">
+        </div>
+  
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Farm Owner</label>
+          <input type="text" class="form-control" id="farmOwner" name="farmOwner"  placeholder="Farm Owner">
+        </div>
+  
+  
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Province</label>
+          <input type="text" class="form-control" id="province" name="province"  placeholder="Province">
+        </div>
+  
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Municipality</label>
+          <input type="text" class="form-control" id="municipality" name="municipality" placeholder="Municipality">
+        </div>
+  
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Barangay</label>
+          <input type="text" class="form-control" id="barangay" name="barangay" placeholder="Barangay">
+        </div>
+  
+  
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Phone Number</label>
+          <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone Number">
+        </div>
+  
+        <div class="form-group">
+          <label for="formGroupExampleInput2"> What year did you start raising pigs in your farm?</label>
+          <input type="text" class="form-control" id="YearRaisingPig" name="YearRaisingPig" placeholder="Year">
+        </div>
+  
+        <div class="form-group">
+          <label for="formGroupExampleInput2">How many years have you been in this business?</label>
+          <input type="text" class="form-control" id="YearsInBusiness" name="YearsInBusiness" placeholder="Years">
+        </div>
+  
+        <div class="form-group">
+          <label for="formGroupExampleInput2">     How many workers do you have?</label>
+          <input type="text" class="form-control" id="WorkerNumber" name="WorkerNumber" placeholder="Number of workers">
+        </div>
+  
+      
+        <div class="form-group">
+          <label for="formGroupExampleInput2">How old (in years) is the oldest building/housing unit in your farm?</label>
+          <input type="text" class="form-control" id="YearsOldestBuilding" name="YearsOldestBuilding" placeholder="Years">
+        </div>
+  
+       
+        <div class="form-group">
+          <label for="formGroupExampleInput2"> How old (in years) is the newest building/housing unit in your farm?</label>
+          <input type="text" class="form-control" id="YearsNewestBuilding" name="YearsNewestBuilding" placeholder="Years">
+        </div>
+       
+        <div class="form-group">
+          <label for="formGroupExampleInput2"> How many housing units do you have in your farm?</label>
+          <input type="text" class="form-control" id="numberHousingUnits" name="numberHousingUnits"  placeholder="Number of housing units">
+        </div>
+  
+        <div class="form-group">
+          <label for="typeoffarm"> Type of Farm:</label>
+          <select name="typeoffarm" id="optTypeFarm">
+            <option value="large">Large Commercial (501-2500 sows)</option>
+            <option value="medium">Medium Commercial (201-500 sows)</option>
+            <option value="small">Small Commercial (50-200 sows)</option>
+            <option value="backyard">Backyard(less than 50 sows)</option>
+          </select>
+        </div>
+  
+  
+        
+  
+        <div class="form-group">
+          <label for="typeofoperation"> Type of Operation:</label>
+          <select name="typeofoperation" id="optOperation">
+            <option value="back">Backyard</option>
+            <option value="comm">Commercial</option>
+          </select>
+        </div>
+  
+       
+  
+        <div class="form-group">
+          <label for="typeofhousing"> Type of Housing in farm:</label>
+          <select name="typeofhousing" id="optHousing">
+            <option value="tunnel">Tunnel Vent</option>
+            <option value="traditional">Traditional/Conventional</option>
+          </select>
+        </div>
+  
+       
+        <div class="form-group">
+          <label for="formGroupExampleInput2">  GPS Coordinates</label>
+          <input type="number" class="form-control" name="Lat" id="Lat" placeholder="Latitude">
+          <input type="number" class="form-control" name="Long" id="Long" placeholder="Longtitude">
+        </div>
+  </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" id="btn-close2" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" id="btn-delete2"  class="btn btn-primary">Delete</button>
+          <button type="button" id="btn-update2"  class="btn btn-primary">Update</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- CREATE GUIDE MODAL -->
+  <div id="modal-create" class="modal">
+    <div class="modal-content">
+      <h4>Create Guide</h4><br />
+      <form id="create-form">
+        <div class="input-field">
+          <input type="text" id="title" required>
+          <label for="title">Guide Title</label>
+        </div>
+        <div class="input-field">
+          <textarea id="content" class="materialize-textarea" required></textarea>
+          <label for="content">Guide Content</label>
+        </div>
+        <button class="btn yellow darken-2 z-depth-0">Create</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- GUIDE LIST -->
+  <div class="container" style="margin-top: 40px;">
+    <ul class="collapsible z-depth-0 guides" style="border: none;">
+
+    </ul>
+  </div>
+
+<!--LIST OF USERS -->
+ 
+  <div id="user_div"  class="table-wrapper2" style="margin-top: 10rem;"">
+
+    <table id="myTable" class="table display">
+      <thead>
+      <tr>
+        <th>Full Name</th>
+        <th>E-mail</th>
+        <th>Farm Name</th>
+        <th>Owner Name</th>
+        <th>Province</th>
+        <th>Municipality</th>
+        <th>Bario</th>
+        <th>Telephone/Phone No.</th>
+        <th></th>
+      </tr>
+    </thead>
+   <tbody id="tablebo">
+
+   </tbody>
+    </table>
+    <button class="btn btn-add" >Add User</button>
+  </div>
+  
+
+
+<!--Login Modal -->
+
+  <div class="modal" id="modal-login2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-bottom-0">
+          <button id="btn-close3" onclick="CloseModalPopup();"  type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-title text-center">
+            <h4>Admin Login</h4>
+          </div>
+          <div class="d-flex flex-column text-center">
+            <form id="login-form2">
+              <div class="form-group">
+                <input type="email" class="form-control" id="login-email2" placeholder="Your email address...">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="login-password2" placeholder="Your password...">
+              </div>
+              
+              <button type="button" id="btn-login" class="btn btn-info btn-block btn-round">Login</button>
+              <button type="button" id="btn-close" class="btn btn-danger btn-block btn-round" data-dismiss="modal">Close</button>
+            </form>
+            
+           
+        </div>
+      </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <div class="signup-section">Not a member yet? <a href="#a" class="text-info"> Sign Up</a>.</div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-functions.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAzIPmw2_6Ki-zoB-2imNMNUJWqb4Lnuok",
+      authDomain: "swinebiosecurity.firebaseapp.com",
+      projectId: "swinebiosecurity"
+    };
+    firebase.initializeApp(config);
+    
+    // make auth and firestore references
+    const auth = firebase.auth();
+    const db = firebase.firestore();
+    const functions = firebase.functions();
+
+    // update firestore settings
+    db.settings({ timestampsInSnapshots: true });
+  </script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="scripts/auth.js"></script>
+  <script src="scripts/index.js"></script>
+
+
+<!-- 
+<script>
+    $(document).ready( function () {
+      $('#myTable').DataTable();
+      
+    } );
+</script>
+-->
+
+<!-- 
+<script>
+  
+  $(document).ready(function() {
+    $('#myTable').DataTable( {
+        "paging":   true,
+      dom: 'Bfrtip',
+      buttons: [
+        'print'
+      ]
+    } );
+  } );
+  
+    </script>
+-->
+    </body>
+</html>
